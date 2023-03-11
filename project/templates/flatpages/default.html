@@ -38,14 +38,10 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1>{% block title %}
-                    {{ flatpage.title}}
-                    {% endblock title %}</h1>
-                <p class="lead">
-                   {% block content %}
-                   {{ flatpage.content }}
-                   {% endblock content %} </p>
-                <p>Project with templates 08/03/2023 </p>
+                <h1><i>{{ flatpage.title}}</i></h1>
+                <i class="lead">
+                   {{ flatpage.content }}</i>
+                <p><i>Project with templates 08/03/2023</i></p>
             </div>
         </div>
     </body>
